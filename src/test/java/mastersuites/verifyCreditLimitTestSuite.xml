@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="3" name="CreatorSTack-TestCases">
+
+    <test name="Validate credit limit of the given customer">
+        <classes>
+            <class name="testcase.verifyCreditLimitTest">
+            </class>
+        </classes>
+    </test>
+
+</suite>
